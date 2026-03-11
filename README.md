@@ -14,6 +14,7 @@ This is a simple OTP Generator and Verification interface built using HTML, CSS,
 - Input fields reset when generating a new OTP
 - Random background color generator
 - Clean UI using CSS Flexbox
+- Responsive design for mobile and laptop screens
 
 ## Technologies Used
 
