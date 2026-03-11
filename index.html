@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <button onclick="generate()" id="genOTP">generate otp</button>
+    <br><br>
+    <section >
+        <h2 id="otp"></h2>
+        <div id="inpFields">
+            <input type="text" maxlength="1" class="inp" autocomplete="off">
+            <input type="text" maxlength="1" class="inp" autocomplete="off">
+            <input type="text" maxlength="1" class="inp" autocomplete="off">
+            <input type="text" maxlength="1" class="inp" autocomplete="off">
+            <!-- <br><br> -->
+        </div>
+        <div id="verifyContainer">
+            <button onclick="verify()" id="verifyOTP">verify otp</button>
+            <h2 id="res"></h2>
+        </div>
+    </section>
+
+    <button onclick="color()" id="changeColor">Change Color</button>
+    <script src="./script.js"></script>
+</body>
+
+</html>
