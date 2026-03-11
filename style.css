@@ -11,6 +11,12 @@
     border: solid rgb(5, 148, 196) 2px;
 }
 
+@media all and (max-width : 480px) {
+    #genOTP {
+        margin-left: 160px;
+    }
+}
+
 section {
     height: 230px;
     width: 240px;
@@ -80,4 +86,11 @@ input {
     margin-top: 30px;
     border-radius: 12px;
     border: solid indigo;
+
+}
+
+@media all and (max-width : 480px) {
+    #changeColor {
+        margin-left: 160px;
+    }
 }
